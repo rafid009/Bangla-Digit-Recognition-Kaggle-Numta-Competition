@@ -1,0 +1,28 @@
+We have different folder of different classes. 
+We have placed images from each dataset to 10 folders.
+Each of the 10 folder represents to 10 classes.
+Then we zipped it and uploaded it in dropbox.
+
+We were training using Google's Colab service.
+For each training period we downloaded full training data from dropbox to colab.
+Then rest of the directory preparation work is done in notebook.
+
+Our target is to build this structure,
+
+root
+|-- script.ipynb
+|-- submission.csv
+|-- data
+    |-- train 
+	    |-- 0
+		|-- 1
+		.
+		.
+		|-- 9
+	|-- valid
+	    |-- 0
+		|-- 1
+		.
+		.
+		|-- 9
+	|-- test
